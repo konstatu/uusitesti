@@ -1,6 +1,6 @@
-const http = require("http");
+//const http = require("http");
 const app = require("./app");
-const server = http.createServer(app);
+//const server = http.createServer(app);
 
 const PORT = process.env.PORT || 8080;
 // Luodaan web-palvelin ja kerrotaan siitä tieto konsolissa.
